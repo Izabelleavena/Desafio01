@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <center>
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <td id="titulo">Nome</td>
+                    <td id="titulo">Idade</td>
+                    <td id="titulo">Cidade</td>
+                </tr>
+            </thead>
+        </table>  
+
+         <h3>Vamos inserir seu perfil ?</h3>
+        <label for="name">Nome</label><br>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome"><br>
+        <label for="name">Idade</label><br>
+        <input type="text" name="idade" id="idade" placeholder="Digite sua idade"><br>
+        <label for="name">Cidade</label><br>
+        <input type="text" name="cidade" id="cidade" placeholder="Digite sua cidade"><br>
+        <button type="submit" id="botao" onclick="perfil(nome.value, idade.value, cidade.value)">Adicionar perfil</button>
+    </center>
+     
+    <script src="/script.js"></script>
+</body>
+</html>
